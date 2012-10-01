@@ -1,0 +1,9 @@
+input{
+  padding-top: 15px;
+}
+input::after {
+  content: attr(data-value) '/' attr(max);
+  position: relative
+  left: 135;
+  top: -20px;
+}
