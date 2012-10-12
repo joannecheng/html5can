@@ -1,0 +1,37 @@
+.circle { 
+  width: 300px;
+  height: 300px;
+}
+
+.red { 
+  background-color: #F9B50F;
+}
+
+.blue { 
+  background-color: #0266c8;
+}
+
+.green { 
+  background-color: #00933B;
+}
+
+.yellow { 
+  background-color: #F20101;
+}
+
+.white { 
+  background-color: #ffffff;
+}
+
+div { 
+  display: -webkit-flex;
+  padding: 20px;
+  width: -webkit-calc(100%-4em);
+  height: -webkit-calc(100%-4em);
+  border-radius: 50%;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
+}
+div:hover {
+  border-radius: 0;
+}
