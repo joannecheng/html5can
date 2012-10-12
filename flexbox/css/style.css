@@ -1,0 +1,33 @@
+.box { 
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-align-items: stretch;
+  -webkit-flex-direction: row;
+}
+
+.box > :nth-child(2) {
+  -webkit-order: -1;
+}
+
+.inside {
+  background-color: #47D1FF;
+  color: #ffffff;
+  padding: 10px;
+  margin: 3px;
+}
+
+
+.same-height { 
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-align-items: stretch;
+  -webkit-flex-direction: row;
+}
+.same-height > * { 
+  -webkit-flex: 1 0 0px;
+}
+
+/* Make second column twice as big as the other columns */
+.same-height > :nth-child(2) {
+  -webkit-flex: 2 0 0px;
+}
