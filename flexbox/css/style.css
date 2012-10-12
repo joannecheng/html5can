@@ -28,6 +28,6 @@
 }
 
 /* Make second column twice as big as the other columns */
-.same-height > :nth-child(2) {
+.same-height:hover > :nth-child(2) {
   -webkit-flex: 2 0 0px;
 }
